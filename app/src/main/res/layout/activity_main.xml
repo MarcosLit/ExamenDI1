@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:padding="10dp">
+
+        <TableRow
+            android:background="#FF2A511F">
+            <TextView
+                android:layout_column="0"
+                android:text="Producto"
+                android:textColor="@android:color/white"
+                android:padding="1dp"/>
+            <TextView
+                android:layout_column="2"
+                android:text="Subtotal"
+                android:textColor="@color/white"
+                android:padding="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="0"
+                android:textColor="@color/black"
+                android:text="Jabón de manos x 1"
+                android:padding="1dp"/>
+            <TextView
+                android:layout_column="2"
+                android:textColor="@color/black"
+                android:text="$2"
+                android:padding="1dp"
+                android:layout_gravity="left"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="0"
+                android:textColor="@color/black"
+                android:text="Shampoo Monster x 1"
+                android:padding="1dp"/>
+            <TextView
+                android:layout_column="2"
+                android:textColor="@color/black"
+                android:text="$10"
+                android:padding="1dp"
+                android:layout_gravity="left"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="0"
+                android:textColor="@color/black"
+                android:text="Pastas Duria x 2"
+                android:padding="1dp"/>
+            <TextView
+                android:layout_column="2"
+                android:textColor="@color/black"
+                android:text="$18"
+                android:padding="1dp"
+                android:layout_gravity="left"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="0"
+                android:textColor="@color/black"
+                android:text="Detergente Limpiadin x 1"
+                android:padding="1dp"/>
+            <TextView
+                android:layout_column="2"
+                android:textColor="@color/black"
+                android:text="$13,4"
+                android:padding="1dp"
+                android:layout_gravity="left"/>
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:textColor="#FF2A511F"
+                android:text="Subtotal"
+                android:padding="1dp"/>
+            <TextView
+                android:layout_column="2"
+                android:textColor="@color/black"
+                android:text="$43,4"
+                android:padding="1dp"
+                android:layout_gravity="left"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:textColor="#FF2A511F"
+                android:text="Coste Envío"
+                android:padding="1dp"/>
+            <TextView
+                android:layout_column="2"
+                android:textColor="@color/black"
+                android:text="$10"
+                android:padding="1dp"
+                android:layout_gravity="left"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:textColor="#FF2A511F"
+                android:text="Cupón"
+                android:padding="1dp"/>
+            <TextView
+                android:layout_column="2"
+                android:textColor="@color/black"
+                android:text="-$5"
+                android:padding="1dp"
+                android:layout_gravity="left"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:textColor="#FF2A511F"
+                android:text="Total"
+                android:padding="1dp"/>
+            <TextView
+                android:layout_column="2"
+                android:textColor="@color/black"
+                android:text="$48,4"
+                android:padding="1dp"
+                android:layout_gravity="left"/>
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
